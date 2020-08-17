@@ -142,18 +142,6 @@ img {
     /*es para darles una separacion*/
 }
 
-@media (min-width:640px) {
-    .lista-producto {
-        grid-template-columns: repeat(1);
-    }
-}
-
-@media (min-width:360px) {
-    .lista-producto a:nth-child(2n+1) {
-        clear: both;
-    }
-}
-
 @media (min-width:768px) {
     .lista-producto {
         grid-template-columns: repeat(3, 1fr);
